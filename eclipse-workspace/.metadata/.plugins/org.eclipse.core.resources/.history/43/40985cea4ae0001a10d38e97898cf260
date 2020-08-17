@@ -1,0 +1,11 @@
+Feature: Reset functionality on login page of Application 
+
+
+Scenario: Verification of Reset button 
+
+
+Given Open the Chrome and navigate to Creating Social Impact page			
+
+When Read and write the table in excel sheet
+
+Then Navigate to Our Awards & Accolades and validate

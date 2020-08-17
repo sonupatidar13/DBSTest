@@ -1,0 +1,37 @@
+Feature: Reset functionality on login page of Application 
+
+
+Scenario: Verification of Reset button 
+
+
+Given Open the Firefox and launch the application			
+
+
+When Enter the Username and Password			
+
+
+Then Reset the credential
+
+Given Enter the Username and Password
+  puts(ann)
+end
+
+Given Enter the Username and Password
+  puts("Multiple")
+  puts("Announce","Me")
+end
+
+Given Enter the Username and Password
+  puts("Last message") if line == "3"
+  puts("Line: #{line}: #{ann}")
+  fail if result =~ /fail/i
+end
+
+Given Enter the Username and Password
+  puts("Announce with fail")
+  fail
+end
+
+Given Enter the Username and Password
+  puts(self)
+end
